@@ -17,6 +17,8 @@ changelog:
       labels: ['Type: Refactoring']
     - title: Testing
       labels: ['Type: Testing']
+      run: |
+        curl -X GET "https://example.com/api/v2/endpoint"
     - title: Maintenance
       labels: ['Type: Maintenance']
     - title: CI
